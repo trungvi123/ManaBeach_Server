@@ -35,4 +35,4 @@ adminSchema.pre("save", async function (next) {
 
 
 
-export const admins = mongoose.model("admins", adminSchema);
+export const admins = mongoose.model("ManaBeach_admins", adminSchema);

@@ -28,4 +28,4 @@ userSchema.pre("save", async function (next) {
 
 
 
-export const users = mongoose.model("users", userSchema);
+export const users = mongoose.model("ManaBeach_users", userSchema);
