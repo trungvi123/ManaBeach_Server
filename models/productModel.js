@@ -24,4 +24,4 @@ const schema = mongoose.Schema(
     }
 },{timestamps:true})
 
-export const productModel = mongoose.model('product',schema)
+export const productModel = mongoose.model('ManaBeach_product',schema)
