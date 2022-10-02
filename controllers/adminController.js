@@ -10,6 +10,27 @@ const getAllAdmins = async (req, res) => {
   }
 };
 
+const deletee = async (req, res) => {
+  try {
+    const idReq = req.params.id;
+    await contacModel.findByIdAndDelete(idReq)
+    res.status(200).json({message:"admin was deleted successfully"});
+  } catch (error) {
+    res.status(500).json({ error: error });
+  }
+}; // xong
+
+const deleteeAll = async (req, res) => {
+  try {
+    const admin = await contacModel.deleteMany()
+    res.status(200).json(
+      {message:`${admin.deletedCount} admins were deleted successfully`}
+    );
+  } catch (error) {
+    res.status(500).json({ error: error });
+  }
+}; // xong
+
 const createAdmin = async (req, res) => {
   const newAd = req.body;
   if (newAd.adminKey === process.env.ADMIN_KEY_SIGNUP) {
@@ -48,4 +69,4 @@ const compareAdmin = async (req, res) => {
   }
 };
 
-export { getAllAdmins, createAdmin, compareAdmin };
+export { getAllAdmins, createAdmin, compareAdmin,deletee,deleteeAll };

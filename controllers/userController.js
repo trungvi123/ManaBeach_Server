@@ -26,6 +26,27 @@ const createUser = async (req, res) => {
   }
 };
 
+const deletee = async (req, res) => {
+  try {
+    const idReq = req.params.id;
+    await contacModel.findByIdAndDelete(idReq)
+    res.status(200).json({message:"user was deleted successfully"});
+  } catch (error) {
+    res.status(500).json({ error: error });
+  }
+}; // xong
+
+const deleteeAll = async (req, res) => {
+  try {
+    const user = await contacModel.deleteMany()
+    res.status(200).json(
+      {message:`${user.deletedCount} users were deleted successfully`}
+    );
+  } catch (error) {
+    res.status(500).json({ error: error });
+  }
+}; // xong
+
 const compareUser = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -47,4 +68,4 @@ const compareUser = async (req, res) => {
   }
 };
 
-export { createUser, compareUser, getAllUser };
+export { createUser, compareUser, getAllUser ,deletee,deleteeAll};

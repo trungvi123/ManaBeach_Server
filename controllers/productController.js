@@ -10,6 +10,27 @@ const getAllProduct = async (req,res) => {
     }
 }
 
+const deletee = async (req, res) => {
+    try {
+      const idReq = req.params.id;
+      await contacModel.findByIdAndDelete(idReq)
+      res.status(200).json({message:"Product was deleted successfully"});
+    } catch (error) {
+      res.status(500).json({ error: error });
+    }
+  }; // xong
+  
+  const deleteeAll = async (req, res) => {
+    try {
+      const product = await contacModel.deleteMany()
+      res.status(200).json(
+        {message:`${product.deletedCount} products were deleted successfully`}
+      );
+    } catch (error) {
+      res.status(500).json({ error: error });
+    }
+  }; // xong
+
 const createProduct = async (req,res) => {
     try {
         const newProduct = req.body
@@ -31,4 +52,4 @@ const updateProduct = async (req,res) => {
     }
 }
  
-export {getAllProduct,createProduct,updateProduct}
+export {getAllProduct,createProduct,updateProduct,deletee,deleteeAll}
