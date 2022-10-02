@@ -13,7 +13,7 @@ const getAllAdmins = async (req, res) => {
 const deletee = async (req, res) => {
   try {
     const idReq = req.params.id;
-    await contacModel.findByIdAndDelete(idReq)
+    await productModel.findByIdAndDelete(idReq)
     res.status(200).json({message:"admin was deleted successfully"});
   } catch (error) {
     res.status(500).json({ error: error });
@@ -22,7 +22,7 @@ const deletee = async (req, res) => {
 
 const deleteeAll = async (req, res) => {
   try {
-    const admin = await contacModel.deleteMany()
+    const admin = await productModel.deleteMany()
     res.status(200).json(
       {message:`${admin.deletedCount} admins were deleted successfully`}
     );

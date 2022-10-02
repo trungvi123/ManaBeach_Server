@@ -29,7 +29,7 @@ const createUser = async (req, res) => {
 const deletee = async (req, res) => {
   try {
     const idReq = req.params.id;
-    await contacModel.findByIdAndDelete(idReq)
+    await productModel.findByIdAndDelete(idReq)
     res.status(200).json({message:"user was deleted successfully"});
   } catch (error) {
     res.status(500).json({ error: error });
@@ -38,7 +38,7 @@ const deletee = async (req, res) => {
 
 const deleteeAll = async (req, res) => {
   try {
-    const user = await contacModel.deleteMany()
+    const user = await productModel.deleteMany()
     res.status(200).json(
       {message:`${user.deletedCount} users were deleted successfully`}
     );
