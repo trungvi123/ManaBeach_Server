@@ -67,9 +67,8 @@ const uploadImgForProduct = async (req,res) => {
     const dtreq = req.body
     const product = await productModel.find({ _id: dtreq.idProduct })
     if(product[0].imgs.length <= 3){
-      product[0].imgs.push(`http://localhost:5000/images/products/image-${dtreq.namePhoto}.jpeg`);
+      product[0].imgs.push(`https://manabeach-server.herokuapp.com/images/products/image-${dtreq.namePhoto}.jpeg`);
       product[0].save()
-    }else {
       res.json({message:'Chi duoc them toi da 4 anh'})
     }
   } catch (error) {
