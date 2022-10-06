@@ -4,6 +4,7 @@ import multer from 'multer'
 const getAllProduct = async (req,res) => {
     try {
         const product = await productModel.find()
+        
         res.status(200).json(product)
     } catch (error) {
         res.status(500)  
