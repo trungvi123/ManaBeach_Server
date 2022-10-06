@@ -4,19 +4,19 @@ const schema = mongoose.Schema(
     {
     imgs: {
         type:Array,
-        require:true
+        // require:true
     },
     price: {
         type:Number,
-        require:true
+        // require:true
     },
     name:{
         type:String,
-        require:true
+        // require:true
     },
     type:{
         type:Array,
-        require:true
+        // require:true
     },
     description:{
         type:String,

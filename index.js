@@ -20,13 +20,14 @@ app.use(cors());
 app.use("/product", productRouter);
 app.use("/admin", adminRouter);
 app.use("/user", userRouter);
+app.use(express.static('public'))
 
 mongoose
   .connect(
     "mongodb+srv://admin:uh02hELNXTJYuW88@cluster0.ohupeby.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
-  .then(() => {
+  .then(() => { 
     app.listen(PORT, () => {
       console.log("SERVER RUN");
     });

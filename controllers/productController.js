@@ -1,5 +1,5 @@
 import {productModel} from '../models/productModel.js'
-
+import multer from 'multer'
 
 const getAllProduct = async (req,res) => {
     try {
@@ -31,6 +31,49 @@ const deletee = async (req, res) => {
     }
   }; // xong
 
+// --------------------------- start upload product-----------------------
+
+
+const multerConfig = multer.diskStorage({
+  destination: (req,file,callback)=>{
+    callback(null,'public/images/products/')
+  },
+  filename:(req,file,callback)=>{
+    let name = file.originalname.split('.')[0]
+    const ext = file.mimetype.split('/')[1]
+    callback(null,`image-${name}.${ext}`)
+  },
+}) 
+
+const isImage = (req,file,callback)=>{
+  if(file.mimetype.startsWith('image')){
+    callback(null,true)
+  }else {
+    callback(new Error('Only image is allowed..'))
+  }
+}
+
+const upload = multer({
+  storage:multerConfig,
+  fileFilter:isImage
+})
+ 
+const uploadImg = upload.array('photo')
+
+
+
+const uploadImgForProduct = async (req,res) => {
+  try {
+    // console.log(req);
+  } catch (error) {
+    res.status(500)  
+    
+  }
+}
+
+
+
+
 const createProduct = async (req,res) => {
     try {
         const newProduct = req.body
@@ -40,7 +83,25 @@ const createProduct = async (req,res) => {
     } catch (error) {
         res.status(500)  
     }
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------end upload product-----------------------
 
 const updateProduct = async (req,res) => {
     try {
@@ -52,4 +113,4 @@ const updateProduct = async (req,res) => {
     }
 }
  
-export {getAllProduct,createProduct,updateProduct,deletee,deleteeAll}
+export {uploadImgForProduct,getAllProduct,createProduct,updateProduct,deletee,deleteeAll,uploadImg}

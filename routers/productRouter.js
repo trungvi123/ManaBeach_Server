@@ -1,11 +1,12 @@
 import express  from "express";
 
-import {getAllProduct,createProduct,updateProduct,deletee}from "../controllers/productController.js";
+import {uploadImgForProduct,getAllProduct,uploadImg,createProduct,updateProduct,deletee}from "../controllers/productController.js";
 
 const router = express.Router();
 
 router.get('/',getAllProduct)
 router.post('/',createProduct)
+router.post('/upload',uploadImg,uploadImgForProduct)
 
 router.get('/update',updateProduct)
 
