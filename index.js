@@ -6,6 +6,8 @@ import env from "dotenv";
 import productRouter from "./routers/productRouter.js";
 import adminRouter from "./routers/adminRoutes.js";
 import userRouter from "./routers/userRoutes.js";
+import orderRouter from "./routers/orderRouter.js";
+
 import sendMailRouter from './routers/sendMailRouter.js'
 env.config();
 
@@ -21,6 +23,8 @@ app.use("/product", productRouter);
 app.use("/sendMail", sendMailRouter);
 app.use("/admin", adminRouter);
 app.use("/user", userRouter);
+app.use("/order", orderRouter);
+
 app.use(express.static('public'))
 
 mongoose

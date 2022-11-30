@@ -68,14 +68,15 @@ const uploadImgForProduct = async (req,res) => {
     const dtreq = req.body
     const product = await productModel.find({ _id: dtreq.idProduct })
     if(product[0].imgs.length <= 3){
-      product[0].imgs.push(`https://manabeach-server.herokuapp.com/images/products/image-${dtreq.namePhoto}.jpeg`);
+      //https://manabeach-server.herokuapp.com server cá nhân
+      product[0].imgs.push(`http://localhost:5000/images/products/image-${dtreq.namePhoto}.jpeg`);
       product[0].save()
       res.json({message:'Chi duoc them toi da 4 anh'})
     }
   } catch (error) {
     res.status(500)  
     
-  }
+  } 
 }
 
 
@@ -92,20 +93,6 @@ const createProduct = async (req,res) => {
     }
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // ---------------------------end upload product-----------------------

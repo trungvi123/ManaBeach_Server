@@ -8,7 +8,7 @@ router.get('/',getAllProduct)
 router.post('/',createProduct)
 router.post('/upload',uploadImg,uploadImgForProduct)
 
-router.put('/update',updateProduct)
+router.put('/updateProduct',updateProduct)
 
 router.delete("/:id",deletee)
 export default router
