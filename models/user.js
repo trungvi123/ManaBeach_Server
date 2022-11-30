@@ -11,6 +11,10 @@ const userSchema = mongoose.Schema({
     require: true,
     unique:true
   },
+  cart:{
+    type:Array,
+    default:[]
+  }
 });
 
 

@@ -17,6 +17,10 @@ const adminSchema = mongoose.Schema({
   },
   level:{
     type:String
+  },
+  cart:{
+    type:Array,
+    default:[]
   }
 });
 

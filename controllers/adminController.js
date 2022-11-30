@@ -61,7 +61,8 @@ const compareAdmin = async (req, res) => {
       user: {
         email,
         isAdmin:admin.isAdmin,
-        level:admin.level
+        level:admin.level,
+        userCart:admin.cart
       },
     });
   } catch (error) {
