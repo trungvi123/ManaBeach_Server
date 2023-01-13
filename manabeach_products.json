@@ -1,0 +1,194 @@
+[{
+  "_id": {
+    "$oid": "633c582df680fc040612a57b"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 4.jpeg"
+  ],
+  "price": 900000,
+  "name": "LUXURY SINGLE ROOM ART SUITEEEEEEE",
+  "type": [
+    "cap-doi",
+    "sang-trong"
+  ],
+  "description": "tuyet dep",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664899117893"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669823090321"
+    }
+  },
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "633c5885f680fc040612a57d"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 4.jpeg"
+  ],
+  "price": 1450000,
+  "name": "LUXURY SINGLE ROOM SUITE",
+  "type": [
+    "gia-dinh",
+    "sang-trong"
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664899205295"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665063818539"
+    }
+  },
+  "__v": 5
+},{
+  "_id": {
+    "$oid": "633c58cff680fc040612a57f"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 4.jpeg"
+  ],
+  "price": 2000000,
+  "name": "PREMIUM DOUBLE ROOM SUITE",
+  "type": [
+    "cap-doi",
+    "sang-trong"
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664899279801"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665063874855"
+    }
+  },
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "633ed7019c5a134ce94a416d"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 4.jpeg"
+  ],
+  "price": 1500000,
+  "name": "Luxury Double Suite, Attic Floor",
+  "type": [
+    "cap-doi",
+    "sang-trong"
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665062657236"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665063915617"
+    }
+  },
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "633ed7d4fdb12274d5afa47e"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 4.jpeg"
+  ],
+  "price": 850000,
+  "name": "LUXURY DOUBLE ROOM SUITE",
+  "type": [
+    "gia-dinh",
+    "gia-re"
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665062868620"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665063996716"
+    }
+  },
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "633edb12e458b00722b20df4"
+  },
+  "imgs": [
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 1.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 2.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 3.jpeg",
+    "manabeachserver-production.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 4.jpeg"
+  ],
+  "price": 800000,
+  "name": "LUXURY FAMILY DOUBLE ROOM SUITE",
+  "type": [
+    "gia-dinh",
+    "sang-trong"
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665063698399"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665064033069"
+    }
+  },
+  "__v": 4
+},{
+  "_id": {
+    "$oid": "63877e229bf41b10bee072c8"
+  },
+  "imgs": [
+    "http://localhost:5000/images/products/image-cat.jpeg"
+  ],
+  "price": 800000,
+  "name": "Bùi Trung Vỉ",
+  "type": [
+    "sang-trong",
+    "cap-doi"
+  ],
+  "description": "qdwqeqwe",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669824034038"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669824057244"
+    }
+  },
+  "__v": 1
+}]
