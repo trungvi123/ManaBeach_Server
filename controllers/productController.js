@@ -68,8 +68,8 @@ const uploadImgForProduct = async (req,res) => {
     const dtreq = req.body
     const product = await productModel.find({ _id: dtreq.idProduct })
     if(product[0].imgs.length <= 3){
-      //manabeachserver-production.up.railway.app/ server cá nhân
-      product[0].imgs.push(`manabeachserver-production.up.railway.app/images/products/image-${dtreq.namePhoto}.jpeg`);
+      //manabeachserver.up.railway.app server cá nhân
+      product[0].imgs.push(`manabeachserver.up.railway.app/images/products/image-${dtreq.namePhoto}.jpeg`);
       product[0].save()
       res.json({message:'Chi duoc them toi da 4 anh'})
     }
