@@ -1,12 +1,14 @@
+
+
 [{
   "_id": {
     "$oid": "633c582df680fc040612a57b"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM ART SUITE 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM ART SUITE 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM ART SUITE 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM ART SUITE 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM ART SUITE 4.jpeg"
   ],
   "price": 900000,
   "name": "LUXURY SINGLE ROOM ART SUITEEEEEEE",
@@ -31,10 +33,10 @@
     "$oid": "633c5885f680fc040612a57d"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY SINGLE ROOM SUITE 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM SUITE 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM SUITE 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM SUITE 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY SINGLE ROOM SUITE 4.jpeg"
   ],
   "price": 1450000,
   "name": "LUXURY SINGLE ROOM SUITE",
@@ -59,10 +61,10 @@
     "$oid": "633c58cff680fc040612a57f"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-PREMIUM DOUBLE ROOM SUITE 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-PREMIUM DOUBLE ROOM SUITE 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-PREMIUM DOUBLE ROOM SUITE 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-PREMIUM DOUBLE ROOM SUITE 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-PREMIUM DOUBLE ROOM SUITE 4.jpeg"
   ],
   "price": 2000000,
   "name": "PREMIUM DOUBLE ROOM SUITE",
@@ -87,10 +89,10 @@
     "$oid": "633ed7019c5a134ce94a416d"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-Luxury Double Suite, Attic Floor 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-Luxury Double Suite, Attic Floor 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-Luxury Double Suite, Attic Floor 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-Luxury Double Suite, Attic Floor 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-Luxury Double Suite, Attic Floor 4.jpeg"
   ],
   "price": 1500000,
   "name": "Luxury Double Suite, Attic Floor",
@@ -115,10 +117,10 @@
     "$oid": "633ed7d4fdb12274d5afa47e"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY DOUBLE ROOM SUITE 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-LUXURY DOUBLE ROOM SUITE 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY DOUBLE ROOM SUITE 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY DOUBLE ROOM SUITE 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY DOUBLE ROOM SUITE 4.jpeg"
   ],
   "price": 850000,
   "name": "LUXURY DOUBLE ROOM SUITE",
@@ -143,10 +145,10 @@
     "$oid": "633edb12e458b00722b20df4"
   },
   "imgs": [
-    "manabeachserver.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 1.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 2.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 3.jpeg",
-    "manabeachserver.up.railway.app/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 4.jpeg"
+    "https://manaserver.onrender.com/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 1.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 2.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 3.jpeg",
+    "https://manaserver.onrender.com/images/products/image-LUXURY FAMILY DOUBLE ROOM SUITE 4.jpeg"
   ],
   "price": 800000,
   "name": "LUXURY FAMILY DOUBLE ROOM SUITE",
