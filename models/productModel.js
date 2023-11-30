@@ -18,6 +18,13 @@ const schema = mongoose.Schema(
         type:Array,
         // require:true
     },
+    quantity:{
+        type:Number,
+    },
+    outOfStock:{
+        type:Boolean,
+        default: false
+    },
     description:{
         type:String,
         default:'<p><strong>Căn phòng chất lượng với tầm nhìn ra biển </strong></p><p> Luxury Double Room Suite có kích thước nữ hoàng hoặc giường đôi thoải mái, khu vực tiếp khách, bàn làm việc và phòng tắm riêng biệt với vòi hoa sen nhảy đi bộ hoặc bồn tắm và vòi sen cùng nghệ thuật hiện đại và màu sắc trung tính.</p>'
